@@ -55,7 +55,7 @@ async function part2(data: Buffer) {
   return part1(Buffer.from(fullText));
 }
 
-fs.readFile("./input.txt").then(async (buffer) => {
+fs.readFile("./src/day1.txt").then(async (buffer) => {
   let res1 = await part1(buffer);
   console.log("Part 1:", res1);
   let res2 = await part2(buffer);

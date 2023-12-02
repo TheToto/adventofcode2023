@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "packageManager": "yarn@4.0.2",
   "scripts": {
-    "day1": "tsx src/day1.ts"
+    "day1": "tsx src/day1.ts",
+    "day2": "tsx src/day2.ts"
   },
   "devDependencies": {
     "@types/node": "^20.10.2",
